@@ -1,9 +1,21 @@
 <template>
 	<nav class="navbar navbar-expand-lg border-bottom border-bottom-dark">
 		<div class="container-fluid nav nav-underline justify-content-end">
-			<RouterLink to="/" class="link-underline link-underline-opacity-0">Home</RouterLink>
-			<RouterLink to="/about" class="link-underline link-underline-opacity-0">About</RouterLink>
-			<RouterLink to="/projects" class="link-underline link-underline-opacity-0">Projects</RouterLink>
+			<RouterLink to="/" active-class="text-white" class="nav-item link-underline link-underline-opacity-0">Home</RouterLink>
+			<RouterLink to="/about" active-class="text-white" class="nav-item link-underline link-underline-opacity-0">About</RouterLink>
+			<RouterLink to="/projects" active-class="text-white" class="nav-item link-underline link-underline-opacity-0">Projects</RouterLink>
 		</div>
 	</nav>
 </template>
+
+<style>
+.nav-item {
+	color: #9DB2BF;
+}
+/* Hax
+ * if someone knows how to do this elegantly pls tell me
+ */
+.nav-item:hover {
+	background: #121212;
+}
+</style>
