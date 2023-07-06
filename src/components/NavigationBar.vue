@@ -17,5 +17,6 @@
  */
 .nav-item:hover {
 	background: #121212;
+	color: #bfd0db;
 }
 </style>
