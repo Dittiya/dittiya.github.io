@@ -1,17 +1,11 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 import FooterComponent from './components/FooterComponent.vue';
 import NavigationBar from './components/NavigationBar.vue'
 </script>
 
 <template>
-	<header class="fixed-top">
-		<NavigationBar />
-	</header>
-
+	<NavigationBar />
 	<RouterView />
-
-	<footer class="fixed-bottom">
-		<FooterComponent />
-	</footer>
+	<FooterComponent />
 </template>
