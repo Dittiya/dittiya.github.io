@@ -5,11 +5,7 @@
 </template>
 
 <style>
-@media (min-width: 1024px) {
   .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+    background-image: url('https://webusstatic.yo-star.com/ark_us_web/assets/167748390017011083/c59979ff9f8014cd1c82329f156161f1.jpg');
   }
-}
 </style>
