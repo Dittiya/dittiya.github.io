@@ -5,6 +5,11 @@
 			"name": "Project 1",
 			"repository": "www.example.com",
 			"background": "www.example.com/background"
+		},
+		{
+			"name": "Project 2",
+			"repository": "www.example2.com",
+			"background": "www.example2.com/background2"
 		}
 	]
 }
