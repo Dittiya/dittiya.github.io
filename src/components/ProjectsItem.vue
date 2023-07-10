@@ -1,7 +1,20 @@
 <script setup>
-import { reactive, ref } from 'vue';
+import { ref } from 'vue';
 
-const items = ref([{ name: "test1" }, { name: "test2" }])
+const items = ref([])
+
+async function getConfig() {
+  const response = await fetch("https://raw.githubusercontent.com/Dittiya/dittiya.github.io/master/public/config.json")
+  const json = response.json()
+  return json
+}
+
+async function getItems(fetchConfig) {
+  const config = await fetchConfig()
+  items.value = config.projects
+}
+
+getItems(getConfig)
 </script>
 
 <template>
@@ -10,6 +23,4 @@ const items = ref([{ name: "test1" }, { name: "test2" }])
   </div>
 </template>
 
-<style>
-
-</style>
+<style></style>
