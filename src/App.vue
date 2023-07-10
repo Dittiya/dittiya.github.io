@@ -8,7 +8,7 @@ import { ref } from 'vue';
 /* TODO
  * Add loading while fetching config
  */
-const loading = ref(true)
+const loading = ref(false)
 </script>
 
 <template>
