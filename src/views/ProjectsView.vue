@@ -1,28 +1,18 @@
+<script setup>
+import ProjectsItem from '../components/ProjectsItem.vue'
+</script>
+
 <template>
-  <div class="text-white">
-    <h1>WORK IN PROGRESS</h1>
-  </div>
-  <div class="container-fluid ">
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="bg-primary">
+    <div id="carousel" class="carousel slide carousel-fade">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://webusstatic.yo-star.com/ark_us_web/assets/167748390017011083/c59979ff9f8014cd1c82329f156161f1.jpg" 
-            class="d-block w-50" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="https://webusstatic.yo-star.com/ark_us_web/assets/168103691288412376/ea21a3af0ceed92cd8524ffd49e6bbf6.png" 
-            class="d-block w-50" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="https://webusstatic.yo-star.com/ark_us_web/assets/164319244098210581/f4aad0d3a16b9c8b4590b69c9b1c48b9.jpg"
-            class="d-block w-50" alt="...">
-        </div>
+        <ProjectsItem />
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
