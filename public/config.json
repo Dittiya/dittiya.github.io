@@ -2,14 +2,14 @@
 	"version": "0.1.0",
 	"projects": [
 		{
-			"name": "Project 1",
-			"repository": "www.example.com",
-			"background": "www.example.com/background"
+			"name": "This website",
+			"repository": "https://github.com/Dittiya/dittiya.github.io",
+			"background": "https://raw.githubusercontent.com/Dittiya/dittiya.github.io/master/public/favicon.ico"
 		},
 		{
-			"name": "Project 2",
-			"repository": "www.example2.com",
-			"background": "www.example2.com/background2"
+			"name": "Laravel website",
+			"repository": "https://github.com/Dittiya/Skripsi",
+			"background": "https://raw.githubusercontent.com/Dittiya/Skripsi/master/public/images/groceries-g4b79273f7_1920.jpg"
 		}
 	]
 }
